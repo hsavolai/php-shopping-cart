@@ -2,6 +2,7 @@ body{
 	margin: 0px;
 	padding: 0px;
 	font-family: Georgia, "Times New Roman", Times, serif;
+        background-image: url("../images/geo.jpg");
 }
 h1, h2, h3{
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;	
@@ -10,13 +11,13 @@ h1, h2, h3{
 ul.products {
 	padding: 0;
 	margin: 0;
-	max-width: 740px;
+	/*max-width: 600px;*/
 	margin-left: auto;
 	margin-right: auto;
 }
 ul.products li {
 	display: inline-block;
-	max-width: 200px;
+	max-width: 300px;
 	padding: 10px;
 	background-color: #FFFFFF;
 	margin: 10px;
