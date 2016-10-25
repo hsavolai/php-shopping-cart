@@ -1,10 +1,10 @@
 <?php
 $currency = '&#8377; '; //Currency Character or code
 
-$db_username = 'root';
-$db_password = '';
-$db_name = 'test';
-$db_host = 'localhost';
+$db_username = getenv('DATABASE_USER');
+$db_password = getenv('DATABASE_PASSWORD');
+$db_name = getenv('DATABASE_NAME');
+$db_host = getenv('DATABASE_SERVICE_NAME');
 
 $shipping_cost      = 1.50; //shipping cost
 $taxes              = array( //List your Taxes percent here.
